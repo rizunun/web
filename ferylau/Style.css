@@ -1,0 +1,609 @@
+header {
+    position: sticky;
+    top: 0px;
+    height: 18vh;
+    background-color: rgb(0, 0, 128);
+    color: white;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    padding-top: 6.5vh;
+}
+
+#iconico {
+    margin-left: 3vw;
+    cursor: pointer;
+}
+
+#iconico:hover {
+    color: rgb(163, 223, 255);
+
+}
+
+#ko {
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+#momo {
+    margin-top: -0.2vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-link {
+    background-color: rgb(0, 0, 128);
+    border-radius: 10px;
+    height: 4.5vh;
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(163, 223, 255);
+}
+
+/*scrollspy style*/
+
+.nav-link.active {
+    background-color: rgb(0, 7, 103) !important;
+    color: rgb(163, 223, 255) !important;
+}
+
+/*Fin header inicio primera parte "START BOOTSTRAP"*/
+
+#avatar {
+    width: 30vw;
+}
+
+#est {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 9vh;
+    color: white;
+}
+
+#unidi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 5vw;
+
+}
+
+.line {
+    height: 0.4vh;
+    width: 7vw;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+#svg-1 {
+    color: white;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+#ji {
+
+    color: white;
+    font-size: 2vh;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 3vh;
+}
+
+/*Fin primera parte "START BOOTSTRAP", inicio "PORTFOLIO"*/
+
+#imagenes {
+    text-align: center;
+}
+
+#est1 {
+    margin-top: 8vh;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 6.5vh;
+    color: rgb(44, 62, 80);
+}
+
+#est1-1 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 6.5vh;
+    color: rgb(44, 62, 80);
+}
+
+#simbo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#simbooo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#simbo-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#simbo-1-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.line-1 {
+    height: 0.4vh;
+    width: 7vw;
+    background-color: rgb(44, 62, 80);
+    border: 1px solid rgb(44, 62, 80);
+    border-radius: 3px;
+}
+
+#svg-2 {
+    color: rgb(44, 62, 80);
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+#carru1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.svg2-2 {
+    color: white;
+}
+
+.imamodal {
+    width: 25vw;
+    height: 30vh;
+}
+
+.ima {
+    width: 26vw;
+    height: 35vh;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    margin-top: 4vh;
+    border-radius: 1vh;
+}
+
+.contenedor-imagen {
+    position: relative;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    width: 26vw;
+    height: 35vh;
+    border-radius: 1vh;
+    margin-left: 2vh;
+    margin-top: 4vh;
+    background-color: rgba(177, 190, 229, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.contenedor-imagen:hover .overlay {
+    opacity: 1;
+}
+
+
+#cerrar {
+    display: flex;
+    justify-content: end;
+}
+
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Hace que el modal ocupe toda la altura de la pantalla */
+    margin: 0;
+    /* Remueve el margen automático */
+}
+
+.modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out;
+}
+
+#contmodal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Hace que el contenedor ocupe toda la pantalla */
+}
+
+#contenedormodal,
+#contmodal,
+.modal-content {
+    margin: auto;
+    height: 100vh;
+    width: 70vw;
+    max-width: 600px;
+    /* Limita el ancho del modal para que no ocupe toda la pantalla */
+}
+
+
+#textomodal {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    font-size: 2vh;
+}
+
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*Fin segunda parte "PORTFOLIO", inicio "ABOUT"*/
+
+#titabou {
+    text-align: center;
+}
+
+#est2 {
+    margin-top: 8vh;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 6.5vh;
+    color: rgb(255, 255, 255);
+}
+
+.line-2 {
+    height: 0.4vh;
+    width: 7vw;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#svg-3 {
+    color: rgb(255, 255, 255);
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+#textabou {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+#textabou1 {
+    margin-right: 2.5vw;
+    width: 26vw;
+    height: 4vh;
+}
+
+#textabou1-1 {
+    width: 26vw;
+    height: 4vh;
+}
+
+#descar {
+    display: flex;
+    justify-content: center;
+}
+
+.descarga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    height: 8vh;
+    width: 25vh;
+    border-radius: 1vh;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(26, 188, 156);
+}
+
+#svg-4 {
+    margin-right: 1vh;
+}
+
+
+#ji-1 {
+    color: white;
+    font-size: 2.7vh;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: -4vh;
+    padding-left: 20vw;
+    padding-right: 1vw;
+}
+
+#ji-11 {
+
+    color: white;
+    font-size: 2.7vh;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: -4vh;
+    padding-left: 1vw;
+    padding-right: 20vw;
+}
+
+
+/*Fin tercera parte "ABOUT", inicio "CONTACT"*/
+
+#titcon {
+    text-align: center;
+}
+
+#cont {
+    height: 130vh;
+    background-color: rgb(163, 223, 255, 0.1);
+    padding-left: 30vw;
+    padding-right: 30vw;
+}
+
+.custom-input {
+    border: none;
+    border-bottom: 2px solid #4d4d4d;
+    outline: none;
+    width: 100%;
+    padding: 5px 0;
+    padding-bottom: 3vh;
+    font-size: 2.5vh;
+    font-weight: 300;
+    font-family: "Kanit", sans-serif;
+    position: relative;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 7vh;
+}
+
+.form-group-1 {
+    position: relative;
+    margin-bottom: 1vh;
+}
+
+.form-group .error-message {
+    color: rgb(211, 2, 2);
+    font-size: 1.5vh;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+.form-group .error-icon {
+    color: rgb(211, 2, 2);
+    position: absolute;
+    right: 1vw;
+    margin-top: -7vh;
+}
+
+.custom-input:invalid~.error-message,
+.custom-input:invalid~.error-icon {
+    display: block;
+}
+
+.custom-input:invalid {
+    border-bottom-color: rgb(211, 2, 2);
+}
+
+.submit-button {
+    margin-left: -30vw;
+    width: 7vw;
+    height: 8vh;
+    background-color: rgb(171, 225, 215);
+    border: rgb(171, 225, 215);
+    color: white;
+    border-radius: 1vh;
+    font-family: "Kanit", sans-serif;
+    font-size: 2vh;
+    cursor: not-allowed;
+}
+
+form:valid .error-message {
+    color: white;
+}
+
+form:valid .error-icon {
+    color: white;
+}
+
+form:valid .submit-button {
+    cursor: pointer;
+    border-radius: 10%;
+    background-color: rgb(26, 188, 156);
+}
+
+
+/*Fin cuarta parte "contact", inicio "footer"*/
+
+#foo1-1 {
+    display: flex;
+    justify-content: end;
+}
+
+#foo1-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#circc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.circulo {
+    width: 3.3vw;
+    height: 6vh;
+    border-radius: 50%;
+    border: 2.3px solid white;
+    margin-left: 0.6vh;
+    margin-right: 0.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circulo:hover {
+    background-color: white;
+    color: black;
+}
+
+.iconcolor {
+    color: white;
+}
+
+h3 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3vh;
+    margin-bottom: 3vh;
+}
+
+#botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ppp {
+    font-size: large;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    color: #004085;
+    /* Azul oscuro */
+    font-weight: bold;
+}
+
+.form-label {
+    color: #004085;
+}
+
+.form-check-label {
+    color: #004085;
+}
+
+.form-control,
+.form-select {
+    border-color: #004085;
+}
+
+.btn-primary {
+    background-color: #004085;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #002a5e;
+}
+
+body {
+    background-color: #f1f3f4;
+    /* Gris claro */
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.form-title {
+    color: #004085;
+    /* Azul oscuro */
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-label {
+    color: #004085;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #004085;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #004085;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #002a5e;
+}
+
+#message {
+    color: #004085;
+    margin-top: 10px;
+}
